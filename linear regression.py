@@ -6,13 +6,9 @@ import matplotlib.pyplot as plt
 
 ### ---------------- DATA COLLECTION (case specific) -----------------------------------
 
-#set directory
-import os
-path = 'C:\\Users\\smook\\Downloads\\ex1-octave'
-os.chdir(path)
-
 #gather data
-data = np.genfromtxt(fname='ex1data1.txt',delimiter=',')
+data = np.genfromtxt(fname = 'Data1.txt',delimiter=',')
+print("data", data)
 xt = data[:,0]
 yt = data[:,1]
 m = yt.size

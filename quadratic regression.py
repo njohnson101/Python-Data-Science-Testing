@@ -2,7 +2,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-### ---------------- DATA COLLECTION (case specific) -----------------------------------
+### ---------------- DATA COLLECTION -----------------------------------
 
 def generate_data_set():
     np.random.seed(0)
